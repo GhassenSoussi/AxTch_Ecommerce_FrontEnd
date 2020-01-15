@@ -1,0 +1,47 @@
+/* On Tabs & Desktops */
+@media screen and (min-width: 768px) {
+    .navbar-left {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .navbar-right{
+      position: absolute;
+      right: 0%;
+    }
+  
+    .nav-link{
+      font-weight: bold;
+    }
+  
+    
+  }
+
+  .bg-custom{
+    background-color: #191919;
+  }
+
+  .btn-primary.register {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(58, 133, 191, 0.75);
+    border-radius: 40px;
+    background: 0057FF;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-primary.register:hover {
+    color: #FFF;
+    background: rgba(9, 51, 236, 0.75);
+    border: 2px solid rgba(58, 133, 191, 0.75);
+  }
+
+  .navbar-brand.entreprise-name {
+    font-weight: bold;
+  }
+  
+
+  
+  

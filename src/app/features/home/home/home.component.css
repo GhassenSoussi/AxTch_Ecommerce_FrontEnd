@@ -1,0 +1,96 @@
+@media(max-width: 768px) {
+    .fixed-right-sideber {
+        position: relative;
+    }
+}
+
+
+/* developer */
+
+.media {
+    /*box-shadow:0px 0px 4px -2px #000;*/
+    margin: 20px 0;
+    padding: 5px;
+}
+
+.dp {
+    border: 10px solid #eee;
+    transition: all 0.2s ease-in-out;
+}
+
+.dp:hover {
+    border: 2px solid #eee;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    /*-webkit-font-smoothing:antialiased;*/
+}
+
+.media-body {
+    padding: 10px;
+}
+
+
+/* developer */
+
+.container-fluid {
+    margin-bottom: 100px;
+}
+
+section {
+    height: calc(80vh);
+    /* - Height: calc(100vh - (navheight + footer))
+     - Over flow y make the dive scrollable 
+  when it exceed the fixed height*/
+    overflow-y: auto;
+    transition: all 0.5s;
+    background-color: yellow;
+}
+
+section .section-title {
+    text-align: center;
+    color: #191919;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+section {
+    height: calc(80vh);
+    /* - Height: calc(100vh - (navheight + footer))
+     - Over flow y make the dive scrollable 
+  when it exceed the fixed height*/
+    overflow-y: auto;
+    transition: all 0.5s;
+    background-color: yellow;
+}
+
+.container-fluid {
+    padding-top: 50px;
+}
+
+.fixed-right-sideber {
+    position: fixed;
+    right: 0%;
+}
+
+.main {
+    margin-top: 60px;
+    background-color: #F0F0F0;
+    padding-bottom: 80px;
+}
+
+.component-title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.component-title-two-zero {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.component-title h6 {
+    text-align: center;
+    font-weight: bold;
+}

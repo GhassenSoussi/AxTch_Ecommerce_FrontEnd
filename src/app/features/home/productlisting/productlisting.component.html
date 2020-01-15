@@ -1,0 +1,73 @@
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-1">
+                <a><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="col-md-3 text-left">
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-plus-circle"></i> Add Poduct</button>
+            </div>
+            <div class="col-md-8 text-right">
+                <a><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <div class="row link-sort-options">
+            <div class="col-md-1">
+                <a>Home</a>
+            </div>
+            <div class="col-md-11 text-right">
+                <div class="sort-options">
+                    <ul>
+                        <li>Sort by :</li>
+                        <li class="border-right"><a href="#">Price</a></li>
+                        <li class="border-right"><a href="#">Rating</a></li>
+                        <li><a href="#">Brand</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="home-decor">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="title-sort">
+                        <h5>Home Decor</h5>
+                        <ul class="list-group list-group-horizontal" style="list-style:none;">
+                            <li>
+                                <h6><i class="fa fa-times"></i>Kitchen</h6>
+                            </li>
+                            <li>
+                                <h6><i class="fa fa-times"></i>Decor</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 text-right">
+                    <button class="btn-outline btn-sm">Filter By</button>
+                </div>
+            </div>
+            <div class="row decor-elements">
+                <div class="col-md-3 content" style="border: 1 black;" *ngFor="let product of listProduct">
+                    <div class="product-cadre">
+                        <img src="data:image/png;base64,{{product.productimage}}" class="img-fluid border border-dark">
+                    </div>
+                    <div class="product-desc">
+                        <h6 class="d-inline p-2 name">{{product.name}}</h6>
+                        <h6 class=" p-2 provider">{{product.provider}}</h6>
+                        <br>
+                        <h6 class="d-inline p-2 price">{{product.price}}$</h6>
+                        <button class="float-right" data-toggle="modal" data-target="#updateproductModal" (click)="editProduct(product.id)"><i class="fa fa-edit"></i></button>
+                        <button class="float-right" (click)="deleteProduct(product.id)" style="margin-right: 5px;"><i class="fa fa-times-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<!-- Add Product -->
+<app-addproduct></app-addproduct>
+<!-- Add Product -->
+<!-- update Product -->
+<!-- <app-updateproduct></app-updateproduct> -->
+<!-- update Product -->

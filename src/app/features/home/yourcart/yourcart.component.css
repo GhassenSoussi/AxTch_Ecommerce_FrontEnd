@@ -1,0 +1,76 @@
+body {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container {
+    padding: 100px;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.separator {
+    border: 1px gray;
+}
+
+.list-cart {
+    padding-top: 40px;
+}
+
+.list-cart .cart {
+    padding-bottom: 30px;
+}
+
+.cadre-image {
+    background-color: #D8D7DD;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+}
+
+.img-responsive {
+    height: 100%;
+    width: 100%;
+}
+
+.list-cart .title-description {
+    padding-left: 50px;
+}
+
+.list-cart .title-description h5 {
+    font-weight: bold;
+}
+
+.list-cart h6 {
+    color: gray;
+}
+
+.list-cart .title-description p {
+    padding-top: 40px;
+}
+
+.list-cart h6 {
+    color: gray;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+.btn-outline {
+    background: black;
+    padding: 12px 22px;
+    font-weight: bold;
+    font-size: x-small;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: none;
+    padding: 12px 22px;
+    font-weight: bold;
+    background-color: gray;
+}

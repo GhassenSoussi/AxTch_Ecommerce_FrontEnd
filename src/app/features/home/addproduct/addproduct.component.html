@@ -1,0 +1,48 @@
+<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add New Product</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <form class="form-horizontal shadow p-3 mb-5 bg-white rounded" #addProductForm="ngForm" (ngSubmit)="addProductForm.form.valid && addProduct(image,name,price,description,provider,addProductForm)">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Product Name" #name ngModel name="name">
+                                </div>
+                                <div class="form-group">
+                                    <textarea type="text" class="form-control" placeholder="Description" name="description" #description ngModel name="description" rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Price" name="price" #price ngModel name="price">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Product provider" name="provider" #provider ngModel name="provider">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="file" class="form-control" placeholder="Product Picture" accept="image/*" name="image" (change)="handleFileInput($event.target.files)">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <h4>Image</h4>
+                                <img [src]="imageUrl" class="img-thumbnail">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <input type="submit" class=" btn btn-primary" value="Save Product">
+                        </div>
+                    </form>
+                    <hr>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,434 @@
+/* 2.0 Homepage */
+
+
+/* 1.0 */
+
+.page {
+    background-color: white;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.page h5 {
+    font-weight: bold;
+}
+
+.header {
+    padding: 30px;
+}
+
+.one-zero {
+    margin: 60px;
+}
+
+.one-zero h2 {
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 120px;
+}
+
+.nav-item>a {
+    color: gray;
+    font-size: small;
+}
+
+.nav-item .active {
+    color: black;
+    font-weight: bold;
+}
+
+.menu-option {
+    padding-top: 50px;
+}
+
+.menu-option .nav-item:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.custom-navbar .nav-item>a {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+.custom-navbar .nav-item>a:hover {
+    color: gray;
+}
+
+.btn-outline {
+    background: none;
+    padding: 12px 22px;
+    font-weight: bold;
+}
+
+.btn-outline:hover {
+    background: none;
+    padding: 12px 22px;
+    font-weight: bold;
+    background-color: gray;
+}
+
+
+/* 1.0 */
+
+
+/* 1.1 1.2 */
+
+.one-one {
+    background-color: #F0F0F0;
+    min-height: 480px;
+    max-height: 480px;
+}
+
+.one-two {
+    background-color: #C0DAE9;
+    min-height: 480px;
+    max-height: 480px;
+}
+
+.one-one-one-two {
+    margin-top: 100px;
+}
+
+.one-one-one-two .title {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.image-content {
+    min-height: 300px;
+    max-height: 250px;
+}
+
+.one-one-one-two h5 {
+    font-weight: bold;
+}
+
+.one-one-one-two h6 {
+    color: gray;
+}
+
+.one-one-one-two .footer-menu {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.one-one-one-two .footer-menu h6 {
+    color: black;
+    font-size: small;
+}
+
+
+/* 1.1 1.2 */
+
+
+/* popular */
+
+.popular {
+    padding: 60px;
+}
+
+.popular .d-inline {
+    font-size: small;
+    font-weight: bold;
+}
+
+.popular .product-cadre {
+    margin-left: 10px;
+    margin-top: 90px;
+    background-color: #F0F0F0;
+    height: 200px;
+    width: auto;
+    display: block;
+}
+
+.popular .product-cadre .img-fluid {
+    height: 190px;
+}
+
+.popular .product-desc {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.product-desc .provider {
+    color: gray;
+    font-size: x-small;
+}
+
+.product-desc .price {
+    color: gray;
+}
+
+
+/* popular */
+
+
+/* Collections */
+
+.collections {
+    padding: 60px;
+}
+
+.collections .d-inline {
+    font-size: small;
+    font-weight: bold;
+}
+
+.collections .main {
+    margin-top: 60px;
+}
+
+.collections .main p {
+    font-size: small;
+}
+
+.collections .main h6 {
+    font-size: small;
+    font-weight: bold;
+}
+
+.collections .cadre {
+    margin-left: 80px;
+    background-color: #C2DDEE;
+    height: 200px;
+    width: auto;
+    display: block;
+}
+
+.collections .cadre .img-fluid {
+    height: 150px;
+}
+
+.collections .right-titles {
+    padding-top: 50px;
+}
+
+.collections .right-titles h6 {
+    color: gray;
+    font-size: x-small;
+}
+
+.collections .right-titles h5 {
+    font-weight: bold;
+}
+
+.collections .three-one {
+    margin-left: 50px;
+}
+
+.collections .three-one .cadre-image {
+    background-color: #C2DDEE;
+    width: 300px;
+    height: 220px;
+    display: block;
+}
+
+.collections .three-one .cadre-image .img-fluid {
+    height: 150px;
+    width: 150px;
+}
+
+.collections .three-one .description {
+    padding-left: 30px;
+}
+
+.collections .three-one .description h6 {
+    color: gray;
+    font-size: small;
+}
+
+.collections .three-one .description h5 {
+    font-size: large;
+}
+
+.collections .three-two {
+    margin-top: 50px;
+}
+
+.collections .three-two .cadre-image {
+    background-color: lightpink;
+    width: 250px;
+    height: 280px;
+    display: block;
+}
+
+.collections .three-two .cadre-image .img-fluid {
+    height: 150px;
+    width: 150px;
+}
+
+.collections .three-two .description {
+    padding-left: 30px;
+}
+
+.collections .three-two .description h6 {
+    color: gray;
+    font-size: small;
+}
+
+.collections .three-two .description h5 {
+    font-size: large;
+}
+
+.collections .three-three {
+    margin-top: 280px;
+}
+
+.collections .three-three .cadre-image {
+    background-color: khaki;
+    width: 250px;
+    height: 280px;
+    display: block;
+}
+
+.collections .three-three .cadre-image .img-fluid {
+    height: 150px;
+    width: 150px;
+}
+
+.collections .three-three .description {
+    padding-left: 30px;
+}
+
+.collections .three-three .description h6 {
+    color: gray;
+    font-size: small;
+}
+
+.collections .three-three .description h5 {
+    font-size: large;
+}
+
+.collections .three-four .cadre-image {
+    background-color: #1E191D;
+    width: 250px;
+    height: 280px;
+    display: block;
+}
+
+.collections .three-four .cadre-image .img-fluid {
+    height: 150px;
+    width: 150px;
+}
+
+.collections .three-four .description {
+    padding-left: 30px;
+}
+
+.collections .three-four .description h6 {
+    color: gray;
+    font-size: small;
+}
+
+.collections .three-four .description h5 {
+    font-size: large;
+}
+
+.collections .news-letter {
+    margin-top: 130px;
+}
+
+.collections .news-letter h3 {
+    font-weight: bold;
+}
+
+.collections .news-letter p {
+    font-size: small;
+}
+
+.collections .name-email-send {
+    margin-top: 130px;
+    text-align: center;
+}
+
+
+/* Collections */
+
+
+/* footer */
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.footer_area {
+    position: relative;
+    color: #fff;
+    z-index: 100;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.footer_area p {
+    color: gray;
+    font-size: small;
+}
+
+.footer_area .links a {
+    color: gray;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border-color: #33d286;
+}
+
+.ftr_social_icon li {
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.ftr_social_icon ul li a {
+    border: 1px solid gray;
+    border-radius: 50%;
+    color: gray;
+    display: inline-block;
+    font-size: 17px;
+    height: 40px;
+    line-height: 32px;
+    width: 40px;
+    transition: .5s;
+}
+
+.ftr_social_icon ul li a:hover {
+    background: #33d286;
+    border-color: #33d286;
+    color: gray;
+}
+
+.ftr_btm_area {
+    background: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px dotted #888;
+    margin-top: 28px;
+    z-index: 100;
+    position: relative;
+}
+
+.copyright_text {
+    margin: 6px 0;
+}
+
+.links li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: medium;
+    color: #fff;
+}
+
+
+/* footer */
+
+
+/* 2.0 Homepage */
